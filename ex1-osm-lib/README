@@ -1,0 +1,36 @@
+hellyalpern, yanivpe
+helly alpern (316608082), yaniv peeri (204483200)
+EX: 1
+
+FILES:
+osm.cpp- cpp file with the measuring functions
+graph.png - png file with the measuring results
+
+REMARKS:
+some info about the functions:
+osm_operation_time- Time measurement function for an arithmetic operation.
+empty_func- empty func helper for the osm_function_time
+osm_function_time- Time measurement function for an empty function call.
+osm_syscall_time - Time measurement function for an empty trap.
+
+ANSWERS:
+assignment 1:
+The program WhatIDo is a program that expects to get 1 argument of any type (digit\letter etc.)
+If the program does not get an argument it throws an error.
+If the program gets the needed argument it does the following things:
+(1) creates a directory tree called Welcome
+(2) inside the above directory, it creates another folder named "To"
+(3) In the last directory in the tree, the program creates a file called OS2021 and opens it by using the 
+openat command that opens a file relative to a directory file descriptor
+(4) Then the program uses fstat to get information about the file.
+(5) In the file created above the program writes the message:
+ 'hellyalpern\nIf you haven't read the course guidelines yet --- do it right now!\n1'
+the messege structre is:
+	* user login - like hellyalpern\yanivpe
+	* new line
+	* If you haven't read the course guidelines yet --- do it right now!
+	* new line
+	* The argument the program got
+(6) the program deletes the file OS2021 - by using the unlink command that deletes a name and the file it refers to
+(7) the program deletes the directory Welcome\To
+(8) the program deletes the directory Welcome
