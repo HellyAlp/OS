@@ -1,13 +1,3 @@
-//
-// Created by yanivpe on 30/05/2021.
-//
-
-
-//
-// Created by yanivpe on 24/05/2021.
-//
-
-
 #include "uthreads.h"
 #include <deque>
 #include <map>
