@@ -2,7 +2,6 @@ EX: 1
 
 FILES:
 osm.cpp- cpp file with the measuring functions
-graph.png - png file with the measuring results
 
 REMARKS:
 some info about the functions:
